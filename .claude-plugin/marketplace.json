@@ -1,0 +1,14 @@
+{
+  "name": "what-did-i-edit",
+  "description": "The what-did-i-edit Claude Code mod.",
+  "owner": {
+    "name": "Max Everest",
+    "email": "30030299+Squidsword@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "what-did-i-edit",
+      "source": "./"
+    }
+  ]
+}
