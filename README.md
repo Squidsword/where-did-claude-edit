@@ -30,3 +30,7 @@ claude plugin test .
 ```
 
 Run a session against your working copy with `claude --plugin-dir .`; saves hot-reload.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

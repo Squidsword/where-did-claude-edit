@@ -2,6 +2,10 @@
   "name": "where-did-claude-edit",
   "version": "1.0.0",
   "description": "Shows the branch, worktree and name of the file the session last edited on the hint line under the prompt.",
-  "author": { "name": "Max Everest", "email": "30030299+Squidsword@users.noreply.github.com" },
+  "author": {
+    "name": "Max Everest",
+    "email": "30030299+Squidsword@users.noreply.github.com"
+  },
+  "license": "MIT",
   "types": "./types/index.d.ts"
 }
