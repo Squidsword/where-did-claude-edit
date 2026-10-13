@@ -1,4 +1,4 @@
-# what-did-i-edit
+# where-did-claude-edit
 
 A Claude Code mod that shows where the session last edited, on the dim hint line under the prompt:
 
@@ -17,7 +17,7 @@ Before the first edit it shows the session folder's branch. It follows Claude's 
 In a terminal Claude Code session:
 
 ```
-/plugin install what-did-i-edit --marketplace Squidsword/what-did-i-edit
+/plugin install where-did-claude-edit --marketplace Squidsword/where-did-claude-edit
 ```
 
 Answer `y` to add the marketplace, then pick the user scope so it loads in every session.

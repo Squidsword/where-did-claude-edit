@@ -3,7 +3,7 @@ import type { EngineInterface as Engine, Register, ToolCallResult } from 'claude
 
 import type { Label } from '../types'
 
-const label = atom({ plugin: 'what-did-i-edit', key: 'label' } as const, null as Label)
+const label = atom({ plugin: 'where-did-claude-edit', key: 'label' } as const, null as Label)
 
 const SEPARATOR = ' · '
 /**
