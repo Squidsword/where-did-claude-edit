@@ -1,6 +1,6 @@
 {
   "name": "where-did-claude-edit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shows the branch, worktree and name of the file the session last edited on the hint line under the prompt.",
   "author": {
     "name": "Max Everest",

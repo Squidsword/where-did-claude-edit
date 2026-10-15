@@ -10,7 +10,7 @@ A Claude Code mod that shows where the session last edited, on the dim hint line
 - **Worktree**: its root as a `cd`-able path, `~/…` under home. Left out when it's the session's own worktree.
 - **File**: the edited file's name.
 
-Before the first edit it shows the session folder's branch. It follows Claude's `Edit`, `Write` and `NotebookEdit` calls; edits made through Bash (`sed`, heredocs) don't move it. When the label won't fit beside the hint, it takes a line of its own and is cut with `…` past that line.
+Before the first edit it shows the session folder's branch. It follows Claude's `Edit`, `Write` and `NotebookEdit` calls, and edits made through Bash (`sed`, heredocs, scripts). For a Bash edit it takes the file Claude Code's own diff names; failing that, the most recently written file `git status` shows dirty in the session's worktree, the last edit's, or one the command names by path. When the label won't fit beside the hint, it takes a line of its own and is cut with `…` past that line.
 
 ## Install
 
